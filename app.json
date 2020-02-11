@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/center/index"
+    "pages/homePage/index",
+    "pages/myCenter/index",
+    "pages/column/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,23 +11,29 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "backgroundColor": "#FECA49",
+    "borderStyle": "white",
+    "color": "#D78B09",
+    "selectedColor": "#fff",
     "list": [
       {
-        "text":"首页",
-        "iconPath":"icons/home-default.png",
-        "selectedIconPath":"icons/home-active.png",
-        "pagePath":"pages/index/index"
-      },{
+        "text": "首页",
+        "iconPath": "icons/home-default.png",
+        "selectedIconPath": "icons/home-active.png",
+        "pagePath": "pages/homePage/index"
+      },
+      {
         "text": "卡券",
         "iconPath": "icons/ticket-default.png",
         "selectedIconPath": "icons/ticket-active.png",
-        "pagePath": "pages/logs/logs"
-      },{
+        "pagePath": "pages/column/index"
+      },
+      {
         "text": "我的",
         "iconPath": "icons/face-default.png",
         "selectedIconPath": "icons/face-active.png",
-        "pagePath": "pages/center/index"
-      } 
+        "pagePath": "pages/myCenter/index"
+      }
     ]
   },
   "style": "v2",

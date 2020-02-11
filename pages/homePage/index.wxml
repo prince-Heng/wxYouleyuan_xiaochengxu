@@ -1,0 +1,17 @@
+<swiper indicator-dots indicator-color="rgba(255,255,255,0.6)" indicator-active-color="#fff" autoplay>
+  <swiper-item>
+    <image src="/static/uploads/slide_1.jpg" />
+  </swiper-item>
+   <swiper-item>
+    <image src="/static/uploads/slide_2.jpg" />
+  </swiper-item>
+   <swiper-item>
+    <image src="/static/uploads/slide_3.jpg" />
+  </swiper-item>
+   <swiper-item>
+    <image src="/static/uploads/slide_4.jpg" />
+  </swiper-item>
+   <swiper-item>
+    <image src="/static/uploads/slide_5.jpg" />
+  </swiper-item>
+</swiper>
